@@ -11,6 +11,8 @@ struct CurrentWeather: Codable {
     let coord: Coordinates
     let weather: [WeatherDescription]
     let main: TempInfo
+    let name: String
+    let visibility: Int
 }
 
 struct Coordinates: Codable {
@@ -29,4 +31,7 @@ struct TempInfo: Codable {
     let temp: Double
     let feels_like: Double
     let temp_min: Double
+    let temp_max: Double
+    let pressure: Int
+    let humidity: Int
 }
