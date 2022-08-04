@@ -15,6 +15,8 @@
 		1E3794AE2899923D00989A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3794AC2899923D00989A01 /* LaunchScreen.storyboard */; };
 		1E3794B62899A30B00989A01 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3794B52899A30B00989A01 /* CurrentWeather.swift */; };
 		1E3794B82899AF6900989A01 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3794B72899AF6900989A01 /* WeatherViewController.swift */; };
+		1EBDA0FE289C3AB40041B357 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBDA0FD289C3AB40041B357 /* DailyWeather.swift */; };
+		1EBDA100289C3E700041B357 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBDA0FF289C3E700041B357 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		1E3794AF2899923D00989A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E3794B52899A30B00989A01 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		1E3794B72899AF6900989A01 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		1EBDA0FD289C3AB40041B357 /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
+		1EBDA0FF289C3E700041B357 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				1E3794AF2899923D00989A01 /* Info.plist */,
 				1E3794B52899A30B00989A01 /* CurrentWeather.swift */,
 				1E3794B72899AF6900989A01 /* WeatherViewController.swift */,
+				1EBDA0FD289C3AB40041B357 /* DailyWeather.swift */,
+				1EBDA0FF289C3E700041B357 /* NetworkService.swift */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -146,9 +152,11 @@
 			files = (
 				1E3794A62899923A00989A01 /* ViewController.swift in Sources */,
 				1E3794B82899AF6900989A01 /* WeatherViewController.swift in Sources */,
+				1EBDA0FE289C3AB40041B357 /* DailyWeather.swift in Sources */,
 				1E3794A22899923A00989A01 /* AppDelegate.swift in Sources */,
 				1E3794B62899A30B00989A01 /* CurrentWeather.swift in Sources */,
 				1E3794A42899923A00989A01 /* SceneDelegate.swift in Sources */,
+				1EBDA100289C3E700041B357 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
